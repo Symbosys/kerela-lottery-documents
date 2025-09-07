@@ -361,7 +361,7 @@ const Gst: React.FC = () => {
                                         type="submit"
                                         className="w-full bg-gradient-to-r from-yellow-500 to-orange-500 dark:from-yellow-600 dark:to-orange-600 text-white font-bold py-4 rounded-lg transition-all duration-300 hover:scale-[1.02] shadow-md dark:shadow-[0_0_15px_rgba(212,175,55,0.5)]"
                                     >
-                                        <div className="flex items-center justify-center">
+                                        <div className="flex items-center justify-center cursor-pointer">
                                             <FileText className="mr-2 h-5 w-5" />
                                             Generate PDF Preview
                                         </div>
@@ -542,7 +542,7 @@ const Gst: React.FC = () => {
                             variant="outline"
                             size="lg"
                             onClick={handlePrint}
-                            className="bg-gradient-to-r from-yellow-500 to-orange-500 dark:from-yellow-600 dark:to-orange-600 border-2 border-yellow-700 dark:border-yellow-800 text-white hover:scale-105 transition-all duration-300 flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-lg shadow-lg dark:shadow-[0_0_15px_rgba(212,175,55,0.5)]"
+                            className="bg-gradient-to-r from-yellow-500 to-orange-500 dark:from-yellow-600 dark:to-orange-600 border-2 border-yellow-700 dark:border-yellow-800 text-white hover:scale-105 transition-all duration-300 flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-lg shadow-lg dark:shadow-[0_0_15px_rgba(212,175,55,0.5)] cursor-pointer"
                         >
                             <Printer className="h-5 w-5 sm:h-6 sm:w-6 mr-2 sm:mr-3" />
                             Download PDF
